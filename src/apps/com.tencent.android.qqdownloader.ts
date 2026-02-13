@@ -21,5 +21,21 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '功能类-局部弹窗',
+      fastQuery: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          activityIds: 'com.tencent.assistantv2.activity.MainActivity',
+          matches:
+            '@ImageView[childCount=0][visibleToUser=true][width<130 && height<130] <2 FrameLayout < FrameLayout < FrameLayout < [vid="c76"]',
+          snapshotUrls: 'https://i.gkd.li/i/25282173',
+        },
+      ],
+    },
   ],
 });
