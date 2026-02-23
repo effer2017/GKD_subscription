@@ -311,7 +311,6 @@ export const blackListAppIDs: string[] = [
   'com.mmbox.xbrowser', // X浏览器
   'com.mmbox.xbrowser.pro', // X浏览器Google Play版
   'com.mycompany.app.soulbrowser', // soul浏览器
-
   'com.google.android.contactkeys', // Android System Key Verifier
   'com.google.android.safetycore', // Android System SafetyCore
 ];
@@ -327,16 +326,12 @@ export const openAdBlackListAppIDs = new Set([
 // 更新提示黑名单
 export const updateBlackListAppIDs = new Set([
   ...blackListAppIDs,
-
   // 全局规则默认不匹配系统应用，但有的用户喜欢无脑开启规则，容易造成误触，故在此手动禁用
   'com.miui.packageinstaller', // 应用包管理组件
   'com.android.packageinstaller', // 软件包安装程序
   'com.google.android.packageinstaller', // 软件包安装程序
   'com.oplus.appdetail', // 应用安装器
   'com.samsung.android.packageinstaller', // 软件包安装程序
-
-  //-----------------------------------------------------
-
   'info.muge.appshare', // AppShare
   'com.jingdong.app.mall', // 京东
   'com.netease.uuremote', // UU远程（不更新会强制退出）
@@ -381,14 +376,6 @@ export const whiteListAppIDs: string[] = [];
 // 开屏广告白名单
 export const openAdWhiteListAppIDs = new Set([
   ...whiteListAppIDs,
-  'com.bbk.appstore', // vivo应用商店
-  'com.tencent.southpole.appstore', // 黑鲨应用市场
-  'com.heytap.browser', // 一加浏览器
-  'com.heytap.themestore', // oppo主题商店
-  'com.bbk.theme', // vivo主题商店
-  'com.vivo.game', // vivo游戏中心 https://i.gkd.li/i/20097148
-  'com.meizu.media.video', // 魅族视频
-  'com.hihonor.vmall', // 荣耀商城
   'com.miui.systemAdSolution', // 智能服务
 ]);
 
