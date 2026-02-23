@@ -46,7 +46,8 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
-          activityIds: 'com.tencent.assistantv2.kuikly.activity.TransparentKRCommonActivity',
+          activityIds:
+            'com.tencent.assistantv2.kuikly.activity.TransparentKRCommonActivity',
           matches:
             '@ImageView[childCount=0][visibleToUser=true][width<64 && height<64] <3 FrameLayout < FrameLayout < FrameLayout < FrameLayout < [vid="c76"]',
           snapshotUrls: 'https://i.gkd.li/i/25473923',
