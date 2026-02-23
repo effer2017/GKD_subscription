@@ -37,5 +37,21 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 3,
+      name: '功能类-签到弹窗',
+      fastQuery: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          activityIds: 'com.tencent.assistantv2.kuikly.activity.TransparentKRCommonActivity',
+          matches:
+            '@ImageView[childCount=0][visibleToUser=true][width<64 && height<64] <3 FrameLayout < FrameLayout < FrameLayout < FrameLayout < [vid="c76"]',
+          snapshotUrls: 'https://i.gkd.li/i/25473923',
+        },
+      ],
+    },
   ],
 });
