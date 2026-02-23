@@ -38,21 +38,21 @@
 
 复制以下任意一个链接到 GKD 即可使用本订阅规则
 
-- fastly.jsdelivr.net（国内镜像，推荐大陆用户使用）
+- npmmirror源（国内镜像，推荐大陆用户使用）
 
 ```txt
-https://fastly.jsdelivr.net/gh/effer2017/GKD_subscription@main/dist/Michael_gkd.json5
+https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5
 ```
 
 - GitHub源
 
 ```txt
-https://raw.githubusercontent.com/effer2017/GKD_subscription/main/dist/Michael_gkd.json5
+https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5
 ```
 
-- 当前版本: v1
+- 当前版本: v2
 
-- 当前订阅文件已适配 99 个应用，共有 494 应用规则组，3 全局规则组
+- 当前订阅文件已适配 101 个应用，共有 497 应用规则组，3 全局规则组
 
 - 查看 [适配 APP 列表](./dist/README.md)
 
@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/effer2017/GKD_subscription/main/dist/Michael_g
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=1)
+![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=2)
 
 ## Star History
 
